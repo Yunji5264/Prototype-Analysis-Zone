@@ -1,0 +1,1118 @@
+[
+    {
+        "codeDataset": 1,
+        "titleDataset": "A63_PAU (6).zip",
+        "url": "C:\\Users\\ADMrechbay20\\Documents\\data_prototype\\A63_PAU (6).zip",
+        "updateFrequency": "",
+        "typeDataset": ".zip",
+        "themeDataset": "Environment -> Comfort and security",
+        "parameters": [
+            [
+                "geometry"
+            ],
+            [
+                "File name"
+            ]
+        ],
+        "complementaryInfo": [
+            {
+                "pop_est": "Comfort and security"
+            },
+            {
+                "continent": null
+            },
+            {
+                "name": "Comfort and security"
+            },
+            {
+                "iso_a3": null
+            },
+            {
+                "gdp_md_est": null
+            }
+        ],
+        "measures": [],
+        "spatioGranularityMin": 6,
+        "temporalGranularityMin": false,
+        "spatioScope": [
+            "Level 0"
+        ],
+        "temporalScope": false,
+        "hierarchies": [
+            [
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "EPCI"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ],
+                    [
+                        6,
+                        "GEOPOINT"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "REGION"
+                    ],
+                    [
+                        2,
+                        "DEPARTEMENT"
+                    ],
+                    [
+                        3,
+                        "ARRONDISSEMENT"
+                    ],
+                    [
+                        4,
+                        "CANTON"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ],
+                    [
+                        6,
+                        "GEOPOINT"
+                    ]
+                ]
+            ],
+            []
+        ]
+    },
+    {
+        "codeDataset": 2,
+        "titleDataset": "base-excel-flux-mobilite-domicile-lieu-etude-2020.xlsx",
+        "url": "C:\\Users\\ADMrechbay20\\Documents\\data_prototype\\base-excel-flux-mobilite-domicile-lieu-etude-2020.xlsx",
+        "updateFrequency": "",
+        "typeDataset": ".xlsx",
+        "themeDataset": "Level of Independence -> Work capacity - education and skills",
+        "parameters": [
+            [
+                "Commune (ou arrondissement municipal) de résidence",
+                "Code géographique de la commune (ou de l'arrondissement municipal) de résidence"
+            ],
+            [
+                "File names"
+            ]
+        ],
+        "complementaryInfo": [],
+        "measures": [
+            {
+                "Population de 2 ans ou plus scolarisée dans la commune (ou l'arrondissement municipal) de résidence": "Work capacity - education and skills"
+            },
+            {
+                "Population de 2 ans ou plus scolarisée hors de la commune (ou de l'arrondissement municipal) de résidence": "Work capacity - education and skills"
+            },
+            {
+                "Total : population scolarisée de 2 ans ou plus": "Work capacity - education and skills"
+            }
+        ],
+        "spatioGranularityMin": 5,
+        "temporalGranularityMin": false,
+        "spatioScope": [
+            {
+                "Level 3": "Code géographique de la commune (ou de l'arrondissement municipal) de résidence"
+            },
+            {
+                "Level 3": "Code géographique de la commune (ou de l'arrondissement municipal) de résidence"
+            },
+            {
+                "Level 3": "Commune (ou arrondissement municipal) de résidence"
+            }
+        ],
+        "temporalScope": {
+            "type": "year",
+                "min_date": "2020",
+                "max_date": "2020"
+        },
+        "hierarchies": [
+            [
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "EPCI"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "REGION"
+                    ],
+                    [
+                        2,
+                        "DEPARTEMENT"
+                    ],
+                    [
+                        3,
+                        "ARRONDISSEMENT"
+                    ],
+                    [
+                        4,
+                        "CANTON"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ]
+                ]
+            ],
+            [
+                [
+                    0,
+                    "YEAR"
+                ]
+            ]
+        ]
+    },
+    {
+        "codeDataset": 3,
+        "titleDataset": "base-excel-flux-mobilite-domicile-lieu-travail-2020.xlsx",
+        "url": "C:\\Users\\ADMrechbay20\\Documents\\data_prototype\\base-excel-flux-mobilite-domicile-lieu-travail-2020.xlsx",
+        "updateFrequency": "",
+        "typeDataset": ".xlsx",
+        "themeDataset": "Level of Independence -> Work capacity - education and skills",
+        "parameters": [
+            [
+                "Code géographique - résidence"
+            ],
+            [
+                "Column names"
+            ]
+        ],
+        "complementaryInfo": [
+            {
+                "Libellé - résidence": null
+            }
+        ],
+        "measures": [
+            {
+                "Nb actifs travaillant dans commune  (ou arrondissement municipal) de résidence": "Work capacity - education and skills"
+            },
+            {
+                "Nb actifs travaillant dans autre commune": "Work capacity - education and skills"
+            },
+            {
+                "Nombre d'actifs de 15 ans ou plus ayant un emploi": "Work capacity - education and skills"
+            }
+        ],
+        "spatioGranularityMin": -1,
+        "temporalGranularityMin": false,
+        "spatioScope": [],
+        "temporalScope":  {
+            "type": "year",
+                "min_date": "2020",
+                "max_date": "2020"
+        },
+        "hierarchies": [
+            [
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "EPCI"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "REGION"
+                    ],
+                    [
+                        2,
+                        "DEPARTEMENT"
+                    ],
+                    [
+                        3,
+                        "ARRONDISSEMENT"
+                    ],
+                    [
+                        4,
+                        "CANTON"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ]
+                ]
+            ],
+            [
+                [
+                    0,
+                    "YEAR"
+                ]
+            ]
+        ]
+    },
+    {
+        "codeDataset": 4,
+        "titleDataset": "dataset-1729882263927.zip",
+        "url": "C:\\Users\\ADMrechbay20\\Documents\\data_prototype\\dataset-1729882263927.zip",
+        "updateFrequency": "",
+        "typeDataset": ".zip",
+        "themeDataset": "Environment -> Comfort and security",
+        "parameters": [
+            [
+                "geometry"
+            ],
+            []
+        ],
+        "complementaryInfo": [
+            {
+                "pop_est": "Comfort and security"
+            },
+            {
+                "continent": null
+            },
+            {
+                "name": "Comfort and security"
+            },
+            {
+                "iso_a3": null
+            },
+            {
+                "gdp_md_est": null
+            }
+        ],
+        "measures": [],
+        "spatioGranularityMin": 6,
+        "temporalGranularityMin": 3,
+        "spatioScope": [
+            "Level 0"
+        ],
+        "temporalScope": false,
+        "hierarchies": [
+            [
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "EPCI"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ],
+                    [
+                        6,
+                        "GEOPOINT"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "REGION"
+                    ],
+                    [
+                        2,
+                        "DEPARTEMENT"
+                    ],
+                    [
+                        3,
+                        "ARRONDISSEMENT"
+                    ],
+                    [
+                        4,
+                        "CANTON"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ],
+                    [
+                        6,
+                        "GEOPOINT"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        0,
+                        "YEAR"
+                    ],
+                    [
+                        1,
+                        "WEEK"
+                    ],
+                    [
+                        3,
+                        "DATE"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "YEAR"
+                    ],
+                    [
+                        1,
+                        "QUARTER"
+                    ],
+                    [
+                        2,
+                        "MONTH"
+                    ],
+                    [
+                        3,
+                        "DATE"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "codeDataset": 5,
+        "titleDataset": "fr-en-adresse-et-geolocalisation-etablissements-premier-et-second-degre.geojson",
+        "url": "C:\\Users\\ADMrechbay20\\Documents\\data_prototype\\fr-en-adresse-et-geolocalisation-etablissements-premier-et-second-degre.geojson",
+        "updateFrequency": "",
+        "typeDataset": ".geojson",
+        "themeDataset": "Environment -> Opportunities to acquire new information and skills",
+        "parameters": [
+            [
+                "geometry"
+            ],
+            []
+        ],
+        "complementaryInfo": [
+            {
+                "numero_uai": "Opportunities to acquire new information and skills"
+            },
+            {
+                "appellation_officielle": "Opportunities to acquire new information and skills"
+            },
+            {
+                "denomination_principale": "Opportunities to acquire new information and skills"
+            },
+            {
+                "patronyme_uai": "Opportunities to acquire new information and skills"
+            },
+            {
+                "secteur_public_prive_libe": "Opportunities to acquire new information and skills"
+            },
+            {
+                "adresse_uai": null
+            },
+            {
+                "lieu_dit_uai": null
+            },
+            {
+                "boite_postale_uai": null
+            },
+            {
+                "code_postal_uai": null
+            },
+            {
+                "localite_acheminement_uai": null
+            },
+            {
+                "libelle_commune": null
+            },
+            {
+                "coordonnee_x": null
+            },
+            {
+                "coordonnee_y": null
+            },
+            {
+                "epsg": null
+            },
+            {
+                "latitude": null
+            },
+            {
+                "longitude": null
+            },
+            {
+                "appariement": null
+            },
+            {
+                "localisation": null
+            },
+            {
+                "nature_uai": null
+            },
+            {
+                "nature_uai_libe": null
+            },
+            {
+                "etat_etablissement": null
+            },
+            {
+                "etat_etablissement_libe": null
+            },
+            {
+                "code_departement": null
+            },
+            {
+                "code_region": null
+            },
+            {
+                "code_academie": "Opportunities to acquire new information and skills"
+            },
+            {
+                "code_commune": null
+            },
+            {
+                "libelle_departement": null
+            },
+            {
+                "libelle_region": null
+            },
+            {
+                "libelle_academie": "Opportunities to acquire new information and skills"
+            },
+            {
+                "secteur_prive_code_type_contrat": "Opportunities to acquire new information and skills"
+            },
+            {
+                "secteur_prive_libelle_type_contrat": "Opportunities to acquire new information and skills"
+            },
+            {
+                "code_ministere": "Opportunities to acquire new information and skills"
+            },
+            {
+                "libelle_ministere": "Opportunities to acquire new information and skills"
+            },
+            {
+                "date_ouverture": null
+            }
+        ],
+        "measures": [],
+        "spatioGranularityMin": 6,
+        "temporalGranularityMin": false,
+        "spatioScope": [
+            "Level 0"
+        ],
+        "temporalScope": false,
+        "hierarchies": [
+            [
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "EPCI"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ],
+                    [
+                        6,
+                        "GEOPOINT"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "REGION"
+                    ],
+                    [
+                        2,
+                        "DEPARTEMENT"
+                    ],
+                    [
+                        3,
+                        "ARRONDISSEMENT"
+                    ],
+                    [
+                        4,
+                        "CANTON"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ],
+                    [
+                        6,
+                        "GEOPOINT"
+                    ]
+                ]
+            ],
+            []
+        ]
+    },
+    {
+        "codeDataset": 6,
+        "titleDataset": "logements-vacants-du-parc-prive-par-commune-au-01012021-lovac.xlsx",
+        "url": "C:\\Users\\ADMrechbay20\\Documents\\data_prototype\\logements-vacants-du-parc-prive-par-commune-au-01012021-lovac.xlsx",
+        "updateFrequency": "",
+        "typeDataset": ".xlsx",
+        "themeDataset": "Environment -> Domestic environment",
+        "parameters": [
+            [
+                "INSEE_COM",
+                "CODE_DEPT",
+                "CODE_EPCI",
+                "NOM_REGION"
+            ],
+            [
+                "Column names"
+            ]
+        ],
+        "complementaryInfo": [
+            {
+                "NOM_COM": null
+            },
+            {
+                "NOM_DEPT": null
+            },
+            {
+                "NOM_EPCI": null
+            }
+        ],
+        "measures": [
+            {
+                "Nb_log_pp_2020": "Domestic environment"
+            },
+            {
+                "Nb_logvac_pp_010119": "Available space"
+            },
+            {
+                "Nb_logvac_pp_C_010119": "Available space"
+            },
+            {
+                "Nb_logvac_2A_010119": "Available space"
+            },
+            {
+                "Prop_logvac_pp_010119": "Available space"
+            },
+            {
+                "Prop_logvac_pp_C_010119": "Available space"
+            },
+            {
+                "Prop_logvac_pp_2A_010119": "Available space"
+            },
+            {
+                "Nb_log_pp_2021": "Domestic environment"
+            },
+            {
+                "Nb_logvac_pp_010120": "Available space"
+            },
+            {
+                "Nb_logvac_pp_C_010120": "Available space"
+            },
+            {
+                "Nb_logvac_2A_010120": "Available space"
+            },
+            {
+                "Prop_logvac_pp_010120": "Available space"
+            },
+            {
+                "Prop_logvac_pp_C_010120": "Available space"
+            },
+            {
+                "Prop_logvac_pp_2A_010120": "Available space"
+            },
+            {
+                "Nb_log_pp_2022": "Domestic environment"
+            },
+            {
+                "Nb_logvac_pp_010121": "Available space"
+            },
+            {
+                "Nb_logvac_pp_C_010121": "Available space"
+            },
+            {
+                "Nb_logvac_2A_010121": "Available space"
+            },
+            {
+                "Prop_logvac_pp_010121": "Available space"
+            },
+            {
+                "Prop_logvac_pp_C_010121": "Available space"
+            },
+            {
+                "Prop_logvac_pp_2A_010121": "Available space"
+            }
+        ],
+        "spatioGranularityMin": 2,
+        "temporalGranularityMin": 0,
+        "spatioScope": [
+            {
+                "Level 1": "NOM_REGION"
+            }
+        ],
+        "temporalScope": {
+            "type": "year",
+                "min_date": "2019",
+                "max_date": "2022"
+        },
+        "hierarchies": [
+            [
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "REGION"
+                    ],
+                    [
+                        2,
+                        "DEPARTEMENT"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        0,
+                        "YEAR"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "codeDataset": 7,
+        "titleDataset": "Registre national d'Immatriculation des Copropriétés t4-2023.csv",
+        "url": "C:\\Users\\ADMrechbay20\\Documents\\data_prototype\\Registre national d'Immatriculation des Copropriétés t4-2023.csv",
+        "updateFrequency": "",
+        "typeDataset": ".csv",
+        "themeDataset": "Environment -> Domestic environment",
+        "parameters": [
+            [
+                "EPCI",
+                "Commune",
+                [
+                    "long",
+                    "lat"
+                ]
+            ],
+            [
+                "Date du règlement de copropriété"
+            ]
+        ],
+        "complementaryInfo": [
+            {
+                "Numéro d'immatriculation": null
+            },
+            {
+                "Type de syndic : bénévole / professionnel / non connu": null
+            },
+            {
+                "Identification du représentant légal  (raison sociale et le numéro SIRET du syndic professionnel ou Civilité/prénom/ nom du syndic bénévole ou coopératif)": null
+            },
+            {
+                "Siret représentant légal (si existe)": null
+            },
+            {
+                "Code APE": null
+            },
+            {
+                "Commune du représentant légal": null
+            },
+            {
+                "Mandat en cours dans la copropriété": null
+            },
+            {
+                "Nom d’usage de la copropriété": null
+            },
+            {
+                "Adresse de référence": null
+            },
+            {
+                "Numéro et Voie (adresse de référence)": null
+            },
+            {
+                "Code postal (adresse de référence)": null
+            },
+            {
+                "Commune (adresse de référence)": null
+            },
+            {
+                "Adresse complémentaire 1": null
+            },
+            {
+                "Adresse complémentaire 2": null
+            },
+            {
+                "Adresse complémentaire 3": null
+            },
+            {
+                "Nombre d'adresses complémentaires": null
+            },
+            {
+                "long": null
+            },
+            {
+                "lat": null
+            },
+            {
+                "Résidence service": "Available equipment"
+            },
+            {
+                "Syndicat coopératif": null
+            },
+            {
+                "Syndicat principal ou syndicat secondaire": null
+            },
+            {
+                "Si secondaire, n° d’immatriculation du principal": null
+            },
+            {
+                "Période de construction": "Building construction quality"
+            },
+            {
+                "Référence Cadastrale 1": null
+            },
+            {
+                "Code INSEE commune 1": null
+            },
+            {
+                "Préfixe 1": null
+            },
+            {
+                "Section 1": null
+            },
+            {
+                "Numéro parcelle 1": null
+            },
+            {
+                "Référence Cadastrale 2": null
+            },
+            {
+                "Code INSEE commune 2": null
+            },
+            {
+                "Préfixe 2": null
+            },
+            {
+                "Section 2": null
+            },
+            {
+                "Numéro parcelle 2": null
+            },
+            {
+                "Référence Cadastrale 3": null
+            },
+            {
+                "Code INSEE commune 3": null
+            },
+            {
+                "Préfixe 3": null
+            },
+            {
+                "Section 3": null
+            },
+            {
+                "Numéro parcelle 3": null
+            },
+            {
+                "nom_qp": null
+            },
+            {
+                "code_qp": null
+            },
+            {
+                "Copro dans ACV": null
+            },
+            {
+                "Copro dans PVD": null
+            },
+            {
+                "Copro aidée": null
+            },
+            {
+                "Code Officiel Commune": null
+            },
+            {
+                "Nom Officiel Commune": null
+            },
+            {
+                "Code Officiel Arrondissement Commune": null
+            },
+            {
+                "Nom Officiel Arrondissement Commune": null
+            },
+            {
+                "Code Officiel EPCI": null
+            },
+            {
+                "Nom Officiel EPCI": null
+            },
+            {
+                "Code Officiel Département": null
+            },
+            {
+                "Nom Officiel Département": null
+            },
+            {
+                "Code Officiel Région": null
+            },
+            {
+                "Nom Officiel Région": null
+            }
+        ],
+        "measures": [
+            {
+                "Nombre d’ASL auxquelles est rattaché le syndicat de copropriétaires": "Domestic environment"
+            },
+            {
+                "Nombre d’AFUL auxquelles est rattaché le syndicat de copropriétaires": "Domestic environment"
+            },
+            {
+                "Nombre d’Unions de syndicats auxquelles est rattaché le syndicat de copropriétaires": "Domestic environment"
+            },
+            {
+                "Nombre total de lots": "Domestic environment"
+            },
+            {
+                "Nombre total de lots à usage d’habitation, de bureaux ou de commerces": "Crowding"
+            },
+            {
+                "Nombre de lots à usage d’habitation": "Domestic environment"
+            },
+            {
+                "Nombre de lots de stationnement": "Available equipment"
+            },
+            {
+                "Nombre d'arrêtés relevant du code de la santé publique en cours": "Available equipment"
+            },
+            {
+                "Nombre d'arrêtés de péril sur les parties communes en cours": "Available equipment"
+            },
+            {
+                "Nombre d'arrêtés sur les équipements communs en cours": "Available equipment"
+            },
+            {
+                "Nombre de parcelles cadastrales": "Domestic environment"
+            }
+        ],
+        "spatioGranularityMin": 5,
+        "temporalGranularityMin": false,
+        "spatioScope": [
+            {
+                "Level 1": "EPCI"
+            }
+        ],
+        "temporalScope": false,
+        "hierarchies": [
+            [
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "EPCI"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "REGION"
+                    ],
+                    [
+                        2,
+                        "DEPARTEMENT"
+                    ],
+                    [
+                        3,
+                        "ARRONDISSEMENT"
+                    ],
+                    [
+                        4,
+                        "CANTON"
+                    ],
+                    [
+                        5,
+                        "COMMUNE"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        0,
+                        "YEAR"
+                    ],
+                    [
+                        1,
+                        "WEEK"
+                    ],
+                    [
+                        3,
+                        "DATE"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "YEAR"
+                    ],
+                    [
+                        1,
+                        "QUARTER"
+                    ],
+                    [
+                        2,
+                        "MONTH"
+                    ],
+                    [
+                        3,
+                        "DATE"
+                    ]
+                ]
+            ]
+        ]
+    },
+    {
+        "codeDataset": 8,
+        "titleDataset": "temperature-quotidienne-departementale.csv",
+        "url": "C:\\Users\\ADMrechbay20\\Documents\\data_prototype\\temperature-quotidienne-departementale.csv",
+        "updateFrequency": "",
+        "typeDataset": ".csv",
+        "themeDataset": "Environment -> Physical environment -> Climate",
+        "parameters": [
+            [
+                "code_insee_departement",
+                "departement"
+            ],
+            [
+                "date_obs"
+            ]
+        ],
+        "complementaryInfo": [],
+        "measures": [
+            {
+                "tmin": "Climate"
+            },
+            {
+                "tmax": "Climate"
+            },
+            {
+                "tmoy": "Climate"
+            }
+        ],
+        "spatioGranularityMin": 2,
+        "temporalGranularityMin": 3,
+        "spatioScope": [
+            {
+                "Level 2": "code_insee_departement"
+            },
+            {
+                "Level 2": "departement"
+            }
+        ],
+        "temporalScope": {
+            "date_obs": {
+                "type": "date",
+                "min_date": "2018-01-01 00:00:00",
+                "max_date": "2023-12-31 00:00:00"
+            }
+        },
+        "hierarchies": [
+            [
+                [
+                    [
+                        0,
+                        "COUNTRY"
+                    ],
+                    [
+                        1,
+                        "REGION"
+                    ],
+                    [
+                        2,
+                        "DEPARTEMENT"
+                    ]
+                ]
+            ],
+            [
+                [
+                    [
+                        0,
+                        "YEAR"
+                    ],
+                    [
+                        1,
+                        "WEEK"
+                    ],
+                    [
+                        3,
+                        "DATE"
+                    ]
+                ],
+                [
+                    [
+                        0,
+                        "YEAR"
+                    ],
+                    [
+                        1,
+                        "QUARTER"
+                    ],
+                    [
+                        2,
+                        "MONTH"
+                    ],
+                    [
+                        3,
+                        "DATE"
+                    ]
+                ]
+            ]
+        ]
+    }
+]
